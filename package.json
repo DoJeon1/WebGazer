@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brownhci/WebGazer.git"
+    "url": "git+https://github.com/brownhci/WebGazer.git"
   },
   "license": "GPL-3.0-or-later",
   "main": "dist/webgazer.js",
@@ -54,5 +54,14 @@
     "webpack": "4.44.1",
     "webpack-cli": "3.3.12",
     "yarnhook": "^0.4.3"
-  }
+  },
+  "description": "WebGazer.js is an eye tracking library that uses common webcams to infer the eye-gaze locations of web visitors on a page in real time. The eye tracking model it contains self-calibrates by watching web visitors interact with the web page and trains a mapping between the features of the eye and positions on the screen. WebGazer.js is written entirely in JavaScript and with only a few lines of code can be integrated in any website that wishes to better understand their visitors and transform their user experience. WebGazer.js runs entirely in the client browser, so no video data needs to be sent to a server. WebGazer.js can run only if the user consents in giving access to their webcam.",
+  "bugs": {
+    "url": "https://github.com/brownhci/WebGazer/issues"
+  },
+  "homepage": "https://github.com/brownhci/WebGazer#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
